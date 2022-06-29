@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+main{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top:1rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 0rem;
+
+      
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+nav li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+
+}
+header {
+background-image: url('../images/dancers.png');
+color: white;
+text-align: center;
+height: 600px;
+background-size: cover;
+background-position: center;
+padding-top: 0%;
+
+}
+header h1{
+    text-align: center;
+    padding-top: 300px;
+    font-size: 75px;
+}
+.date{
+    border: 2px solid lightgray;
+    display:grid;
+    margin-top: 48px;
+    margin-left: 128px;
+    margin-right: 128px;
+    background-color: rgb(228, 227, 227);
+    
+
+}
+h2{
+    font-family: 'Roboto', italic;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.one {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: auto;
+}
+.two {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    align-items: center;
+    justify-content: left;
+   display: inline;
+   padding: auto;
+}
+
+button {
+    border-radius: 0%;
+    background-color: #eeb928;
+    height: 60px;
+    color: white;
+    width:100px;
+    text-size-adjust: 40px;
+    border: 1px solid black;
+
+}
+.fallout{
+    height: 200px;
+    width: 200px;
+}
+footer{
+    display:grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top:3rem;
+    padding-left: 3rem;
+    align-items: center;
+    background-color:black;
+    color: white;
+
+}
+.title{
+    font-size: 20px;
+    font-weight: bold;
+   
+
+}
+footer li {
+    list-style: none;
+    padding: 9px;
+}
