@@ -116,3 +116,6 @@ footer li {
     list-style: none;
     padding: 9px;
 }
+.fa-solid {
+    font-size: small;
+}
